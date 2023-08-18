@@ -1,0 +1,86 @@
+.faq {
+    display: flex;
+    justify-content: space-between;
+    width: 1225px;
+    margin-top: 100px;
+    .left__container {
+        width: 392px;
+        height: 136px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .title {
+        font-size: 48px;
+        font-weight: 500;
+        color: $accent;
+    }
+    .subtitle {
+        width: 222px;
+    }
+    .accordion {
+        width: 808px;
+        height: 584Ыpx;
+    }
+    .right__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid $hr-color;
+    }
+    details > summary {
+        list-style: none;
+    }
+    summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .accordion__item {
+        position: relative;
+        border-bottom: 1px solid $hr-color;
+
+        padding: 24px;
+    }
+    .accordion__title {
+        font-size: 24px;
+        color: $accent;
+        font-weight: 500;
+        cursor: pointer;
+
+        position: relative;
+        transition: 0.3s all;
+    }
+
+    .accordion__title::after {
+        display: block;
+        content: "+";
+        font-size: 24px;
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: 0.3s all;
+    }
+    .accordion__item:hover {
+        background-color: $blue-background;
+    }
+    .accordion__item:not([open]):last-child .accordion__title {
+        border: none;
+    }
+    .accordion__item[open] .accordion__title::after {
+        content: "-";
+    }
+    .accordion__body {
+        padding-top: 24px;
+        line-height: 24px;
+        width: 760px;
+        font-size: 15px;
+    }
+
+}

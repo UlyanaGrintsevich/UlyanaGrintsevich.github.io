@@ -1,0 +1,31 @@
+.text__container {
+    width: 452px;
+    height: 256px;
+    position: absolute;
+    top: 2590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .country__btn {
+        width: 259px;
+        height: 56px;
+        background-color: $blue-background;
+
+        font-weight: 500;
+        border-radius: 8px;
+        color: $gray;
+    }
+    .btn__country {
+        height: 56px;
+        width: 148px;
+        background-color: $blue;
+        border-radius: 8px;
+        color: $white;
+    }
+    h1 {
+        font-size: 44px;
+        font-weight: 500;
+        color: $accent;
+    }
+}

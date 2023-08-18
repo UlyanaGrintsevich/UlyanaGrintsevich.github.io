@@ -1,0 +1,31 @@
+footer{
+    width: 1230px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    .text{
+        width: 186px;
+        display: flex;
+        justify-content: space-between;
+  
+    }
+    .footer_social {
+        width: 310px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .social__icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 5px 10px 0 rgba(0,0,0,0.08);
+    }
+}

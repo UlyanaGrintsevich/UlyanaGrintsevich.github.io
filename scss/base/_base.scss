@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Manrope:wght@500&family=Montserrat:wght@400;500&family=Unbounded:wght@300;500&display=swap');
+
+
+body{
+   font-family: $font-main;
+   background-color: $white;
+   color: $gray;
+   font-size: 16px;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1255px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    width: 1470px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.btn {
+    width: 121px;
+    background-color: $blue;
+    color: $white;
+    height: 48px;
+    border-radius: 8px;
+}
+.hr {
+    background-color: $hr-color;
+    width: 1224px;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 70px;
+}

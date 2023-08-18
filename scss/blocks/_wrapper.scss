@@ -1,0 +1,44 @@
+.payments{
+  background: linear-gradient($white 76px,$blue-background 76px 596px); 
+
+  .container {
+    // background: linear-gradient(white ,10%, blue);
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+        
+            .text {
+                height: 328px;
+                width: 545px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+             
+            }
+            h1{
+                font-size: 46px;
+                font-weight: 500;
+                color: $accent;
+            }
+            .wrapper_text{
+                font-size: 18px;
+                line-height: 32px;
+                font-weight: 500;
+                color: $gray;
+            }
+            .btn {
+                width: 148px;
+                height: 56px;
+                border-radius: 8px;
+                color: $white;
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+        
+    
+    
+}
+    
