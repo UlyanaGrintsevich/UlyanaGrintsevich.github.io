@@ -1,1 +1,1 @@
-#  https://ulyanagrintsevich.github.io/cryptoplatform/
+#  cryptoplatform
